@@ -128,11 +128,11 @@ class LoginRegisterScreen:
 
         # Center frame for form
         center_frame = tk.Frame(self.container, bg=self.app.colors["bg_light"])
-        center_frame.pack(expand=True, fill=tk.BOTH)
+        center_frame.pack(expand=True, fill=tk.BOTH, padx=20, pady=20)
 
         # Form frame
-        form_frame = tk.Frame(center_frame, bg=self.app.colors["text_light"])
-        form_frame.place(relx=0.5, rely=0.5, anchor=tk.CENTER, width=400, height=450)
+        form_frame = tk.Frame(center_frame, bg=self.app.colors["text_light"], relief=tk.RAISED, bd=2)
+        form_frame.pack(expand=False, fill=tk.BOTH, padx=20, pady=20, anchor=tk.CENTER, side=tk.TOP)
 
         # Title
         self.title_label = tk.Label(
@@ -198,6 +198,17 @@ class LoginRegisterScreen:
             fg=self.app.colors["danger"]
         )
         self.message_label.pack(pady=10)
+
+        # Test credentials hint
+        hint_frame = tk.Frame(form_frame, bg=self.app.colors["bg_light"])
+        hint_frame.pack(fill=tk.X, padx=15, pady=10)
+        tk.Label(
+            hint_frame,
+            text="Test Login: testuser / test123",
+            font=("Arial", 9),
+            bg=self.app.colors["bg_light"],
+            fg="#666666"
+        ).pack()
 
     def toggle_form(self):
         """Toggle between login and register forms."""

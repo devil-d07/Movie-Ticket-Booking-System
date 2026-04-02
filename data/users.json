@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "username": "testuser",
+    "password": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae",
+    "email": "test@example.com",
+    "phone": "9876543210",
+    "registration_date": "2026-04-02"
+  },
+  {
+    "username": "demo",
+    "password": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae",
+    "email": "demo@example.com",
+    "phone": "1234567890",
+    "registration_date": "2026-04-02"
+  }
+]
