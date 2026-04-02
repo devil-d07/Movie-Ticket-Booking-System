@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "The Matrix Reloaded",
+    "genre": "Sci-Fi",
+    "duration": "138 mins",
+    "rating": "R",
+    "description": "Neo and his allies race against time before the machines discover the city of Zion and destroy it.",
+    "image": "matrix.jpg",
+    "showtimes": ["10:00 AM", "1:30 PM", "5:00 PM", "8:30 PM"]
+  },
+  {
+    "id": 2,
+    "title": "Inception",
+    "genre": "Thriller",
+    "duration": "148 mins",
+    "rating": "PG-13",
+    "description": "A skilled thief who steals corporate secrets through dream-sharing technology.",
+    "image": "inception.jpg",
+    "showtimes": ["11:00 AM", "2:15 PM", "6:00 PM", "9:00 PM"]
+  },
+  {
+    "id": 3,
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "duration": "169 mins",
+    "rating": "PG-13",
+    "description": "A team of explorers travel through a wormhole in search of a new home.",
+    "image": "interstellar.jpg",
+    "showtimes": ["9:30 AM", "12:45 PM", "4:00 PM", "7:15 PM"]
+  },
+  {
+    "id": 4,
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "duration": "152 mins",
+    "rating": "PG-13",
+    "description": "Batman faces off against a dangerous criminal known as the Joker.",
+    "image": "darkknight.jpg",
+    "showtimes": ["10:30 AM", "1:00 PM", "4:30 PM", "8:00 PM"]
+  },
+  {
+    "id": 5,
+    "title": "Pulp Fiction",
+    "genre": "Crime",
+    "duration": "154 mins",
+    "rating": "R",
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife unfold in four tales.",
+    "image": "pulpfiction.jpg",
+    "showtimes": ["10:00 AM", "3:00 PM", "6:30 PM", "9:30 PM"]
+  }
+]
